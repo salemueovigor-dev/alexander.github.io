@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александр Петров | Закрытый набор Тайных Покупателей</title>
+    <style>
+        :root {
+            --primary: #0088cc;
+            --dark: #1f1f1f;
+            --light: #f9f9f9;
+            --accent: #ff4757;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 40px 20px; text-align: center; }
+        .avatar { width: 100px; height: 100px; border-radius: 50%; background: #ddd; margin: 0 auto 15px; border: 3px solid white; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: bold; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .card { background: white; padding: 25px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { font-size: 24px; margin-bottom: 5px; }
+        h2 { font-size: 20px; color: #1e3c72; margin-bottom: 15px; border-left: 4px solid var(--primary); padding-left: 10px; }
+        .status { background: var(--accent); color: white; display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-bottom: 15px; animation: pulse 2s infinite; }
+        .price-table { display: flex; justify-content: space-between; background: #eef2f7; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .price-item { text-align: center; flex: 1; }
+        .price-item strong { display: block; font-size: 18px; color: #2d3436; }
+        .attention-box { background: #fff2cc; border-left: 4px solid #f1c40f; padding: 15px; margin: 20px 0; border-radius: 4px; font-weight: 500; }
+        .brands { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .brand-badge { background: #e0e0e0; padding: 5px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; }
+        .review { border-bottom: 1px solid #eee; padding: 15px 0; }
+        .review:last-child { border: none; }
+        .review-auth { font-weight: bold; font-size: 14px; margin-bottom: 5px; display: flex; justify-content: space-between;}
+        .stars { color: #f1c40f; }
+        .tg-btn { display: block; background: var(--primary); color: white; text-align: center; padding: 18px; border-radius: 50px; font-size: 18px; font-weight: bold; text-decoration: none; margin: 30px 0; box-shadow: 0 6px 20px rgba(0,136,204,0.3); transition: transform 0.2s; }
+        .tg-btn:hover { transform: translateY(-2px); background: #0077b5; }
+        @keyframes pulse { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="avatar">АП</div>
+        <h1>Александр Петров</h1>
+        <p>Куратор федеральной сети Тайных Покупателей</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card" style="text-align: center;">
+            <div class="status">🔥 АКТУАЛЬНО НА СЕГОДНЯ</div>
+            <p style="font-size: 18px; font-weight: 500;">Набираю команду для независимого аудита крупных торговых точек и онлайн-сервисов.</p>
+            
+            <div class="price-table">
+                <div class="price-item">
+                    <span>Тестовое задание:</span>
+                    <strong style="color: var(--primary);">500 руб.</strong>
+                </div>
+                <div class="price-item" style="border-left: 1px solid #ccc;">
+                    <span>Последующие отчеты:</span>
+                    <strong style="color: #2ecc71;">до 7 000 руб./день</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>С кем мы работаем и что проверяем?</h2>
+            <p>Мы проводим регулярный мониторинг стандартов обслуживания, честности персонала и качества выкладки товара в крупнейших сетях:</p>
+            <div class="brands">
+                <span class="brand-badge">Пятёрочка / Перекрёсток</span>
+                <span class="brand-badge">ВкусВилл</span>
+                <span class="brand-badge">Магнит</span>
+                <span class="brand-badge">ЛЭТУАЛЬ</span>
+                <span class="brand-badge">Золотое Яблоко</span>
+                <span class="brand-badge">Додо Пицца / Вкусно и точка</span>
+                <span class="brand-badge">Пункты выдачи (Ozon / WB / Яндекс)</span>
+            </div>
+            <p style="margin-top: 12px; font-style: italic; font-size: 14px; color: #666;">* А также проверяем АЗС, фитнес-клубы и крупные аптечные сети.</p>
+        </div>
+
+        <!-- Зацепки и интрига для прогрева -->
+        <div class="attention-box">
+            ⚠️ <strong>ВНИМАНИЕ:</strong> Вакансия закрытая. На сайте опубликована лишь общая информация. Полные инструкции, регламент проверок и свободные адреса в вашем городе выдаются исключительно в ходе личного собеседования в Telegram.
+        </div>
+
+        <div class="card">
+            <h2>Что нужно делать? (В общих чертах)</h2>
+            <ul>
+                <li>Посетить торговую точку под видом обычного клиента.</li>
+                <li>Зафиксировать соблюдение стандартов (скрытая аудиозапись или фотоотчет).</li>
+                <li>Заполнить короткую анкету в личном кабинете.</li>
+            </ul>
+            <p style="margin-top: 15px; font-weight: bold; color: var(--accent);">Подробные алгоритмы и секреты прохождения — строго в ЛС.</p>
+        </div>
+
+        <a href="https://t.me" target="_blank" class="tg-btn">
+            💬 Связаться в Telegram &rarr;
+        </a>
+
+        <div class="card">
+            <h2>Отзывы нашей команды</h2>
+            
+            <div class="review">
+                <div class="review-auth">
+                    <span>Дмитрий К. (Москва)</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p>Взял тестовое задание ради интереса, выплатили 500 рублей сразу после проверки ПВЗ. Сейчас беру по 2-3 точки в день в свободное время, отличная подработка.</p>
+            </div>
+
+            <div class="review">
+                <div class="review-auth">
+                    <span>Елена Р. (Казань)</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p>Александр всегда на связи, четко объясняет, как вести себя на объектах, чтобы не раскрыли. Деньги приходят на карту без задержек. Рекомендую.</p>
+            </div>
+            
+            <div class="review">
+                <div class="review-auth">
+                    <span>Михаил Т. (СПб)</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p>Работаю вторую неделю. Сначала думал, сложно с аудиозаписью, но по инструкциям Александра всё получилось с первого раза. Вышел на стабильный доход.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
